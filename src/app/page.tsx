@@ -9,7 +9,6 @@ import HeroSplit from '@/components/sections/hero/HeroSplit';
 import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaAbout';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import PricingCardTwo from '@/components/sections/pricing/PricingCardTwo';
-import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
 import { DollarSign, Globe, LineChart, ShieldCheck, TrendingUp } from "lucide-react";
 
 export default function LandingPage() {
@@ -32,7 +31,6 @@ export default function LandingPage() {
       navItems={[
         { name: "Start", id: "hero" },
         { name: "Kurse", id: "features" },
-        { name: "Erfolge", id: "testimonials" },
         { name: "Preise", id: "pricing" },
         { name: "Kontakt", id: "contact" },
       ]}
@@ -51,13 +49,6 @@ export default function LandingPage() {
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-highly-sophisticated-professional-trad-1775633567347-92dae4ab.png?_wi=1"
       mediaAnimation="slide-up"
-      avatars={[
-        { src: "http://img.b2bpic.net/free-photo/economy-expert-reviewing-financial-data-kpi-dashboards_482257-127132.jpg", alt: "Marc L." },
-        { src: "http://img.b2bpic.net/free-photo/studio-portrait-blond-female-dressed-white-shirt-red-eyeglasses_613910-3571.jpg", alt: "Sabine H." },
-        { src: "http://img.b2bpic.net/free-photo/business-man-cute-brunette-man-dark-blue-suit-standing-confused_140725-161882.jpg", alt: "Thomas B." },
-        { src: "http://img.b2bpic.net/free-photo/model-man_158595-3785.jpg", alt: "Julia M." },
-        { src: "http://img.b2bpic.net/free-photo/elderly-businessman-with-laptop_23-2148116267.jpg", alt: "Viktor R." },
-      ]}
       marqueeItems={[
         { type: "text-icon", text: "DAX Performance", icon: TrendingUp },
         { type: "text-icon", text: "Forex Strategie", icon: Globe },
@@ -98,20 +89,6 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="testimonials" data-section="testimonials">
-      <TestimonialCardFive
-      textboxLayout="split"
-      useInvertedBackground={false}
-      testimonials={[
-        { id: "1", name: "Marc L.", date: "12.05.2023", title: "Trader", quote: "Die Ausbildung hat mein Verständnis für den Markt komplett verändert. Endlich handle ich profitabel.", tag: "Profi", avatarSrc: "http://img.b2bpic.net/free-photo/economy-expert-reviewing-financial-data-kpi-dashboards_482257-127132.jpg" },
-        { id: "2", name: "Sabine H.", date: "04.08.2023", title: "Marktteilnehmerin", quote: "Strukturierte Inhalte und echte Live-Trading-Einblicke. Sehr wertvoll für meine Entwicklung.", tag: "Basis", avatarSrc: "http://img.b2bpic.net/free-photo/studio-portrait-blond-female-dressed-white-shirt-red-eyeglasses_613910-3571.jpg" },
-        { id: "3", name: "Thomas B.", date: "20.10.2023", title: "Unternehmer", quote: "Hohe Qualität, absolut professionell. Der Fokus auf Risikomanagement rettet mein Konto jeden Tag.", tag: "Masterclass", avatarSrc: "http://img.b2bpic.net/free-photo/business-man-cute-brunette-man-dark-blue-suit-standing-confused_140725-161882.jpg" },
-      ]}
-      title="Was unsere Teilnehmer sagen"
-      description="Erfahrungsberichte unserer Kursteilnehmer auf dem Weg zum profitablen Handeln."
-    />
-  </div>
-
   <div id="pricing" data-section="pricing">
       <PricingCardTwo
       animationType="slide-up"
@@ -144,7 +121,7 @@ export default function LandingPage() {
       <FooterBaseReveal
       logoText="TradeInt"
       columns={[
-        { title: "Akademie", items: [{ label: "Kurse", href: "#features" }, { label: "Erfolge", href: "#testimonials" }] },
+        { title: "Akademie", items: [{ label: "Kurse", href: "#features" }] },
         { title: "Rechtliches", items: [{ label: "Datenschutz", href: "#" }, { label: "Impressum", href: "#" }] },
       ]}
       copyrightText="© 2024 TradeInt. Alle Rechte vorbehalten."
