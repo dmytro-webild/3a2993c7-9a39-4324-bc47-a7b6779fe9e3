@@ -34,15 +34,25 @@ export default function PrivacyPolicyPage() {
         </div>
 
         <div id="legal" data-section="legal">
-            <LegalSection
-                layout="page"
-                title="Datenschutzerklärung"
-                sections={[
-                    { heading: "Einleitung", content: { type: "paragraph", text: "Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Diese Datenschutzerklärung informiert Sie darüber, wie wir Daten erheben und verarbeiten." } },
-                    { heading: "Datenerhebung", content: { type: "paragraph", text: "Wir erheben personenbezogene Daten, wenn Sie mit uns in Kontakt treten oder unsere Dienstleistungen in Anspruch nehmen." } },
-                    { heading: "Ihre Rechte", content: { type: "list", items: ["Recht auf Auskunft", "Recht auf Berichtigung", "Recht auf Löschung"] } }
-                ]}
-            />
+          <LegalSection
+            layout="page"
+            title="Datenschutzerklärung"
+            subtitle="Wir nehmen den Schutz Ihrer Daten ernst."
+            sections={[
+                { 
+                  heading: "1. Einleitung", 
+                  content: { type: "paragraph", text: "Der Schutz Ihrer persönlichen Daten ist uns ein wichtiges Anliegen. Wir verarbeiten Ihre Daten ausschließlich auf Grundlage der gesetzlichen Bestimmungen (DSGVO, TKG). In dieser Datenschutzerklärung informieren wir Sie über die wichtigsten Aspekte der Datenverarbeitung im Rahmen unserer Website." } 
+                },
+                { 
+                  heading: "2. Datenerfassung", 
+                  content: { type: "paragraph", text: "Beim Besuch unserer Website werden verschiedene Daten erhoben, darunter technische Daten wie IP-Adresse, Browsertyp und Informationen zur Nutzung der Website, die zur Bereitstellung unserer Dienste erforderlich sind." } 
+                },
+                { 
+                  heading: "3. Ihre Rechte", 
+                  content: { type: "list", items: ["Recht auf Auskunft", "Recht auf Berichtigung", "Recht auf Löschung", "Recht auf Einschränkung der Verarbeitung", "Recht auf Datenübertragbarkeit"] } 
+                }
+            ]}
+          />
         </div>
 
         <div id="footer" data-section="footer">
