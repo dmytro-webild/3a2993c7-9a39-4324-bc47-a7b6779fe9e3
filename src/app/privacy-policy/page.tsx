@@ -3,10 +3,10 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
-import PricingCardThree from '@/components/sections/pricing/PricingCardThree';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
+import LegalSection from '@/components/legal/LegalSection';
 
-export default function PricingPage() {
+export default function PrivacyPolicyPage() {
   return (
     <ThemeProvider
         defaultButtonVariant="text-stagger"
@@ -33,18 +33,16 @@ export default function PricingPage() {
           />
         </div>
 
-        <div id="pricing" data-section="pricing">
-          <PricingCardThree
-            animationType="slide-up"
-            textboxLayout="split"
-            useInvertedBackground={false}
-            title="Unsere Preispläne"
-            description="Wählen Sie den Plan, der am besten zu Ihren Trading-Zielen passt."
-            plans={[
-              { id: "basis", badge: "Essential", price: "€ 421", name: "Basis", buttons: [{ text: "Jetzt wählen", href: "#contact" }], features: ["6 Monate Zugriff", "Basis-Strategien"] },
-              { id: "pro", badge: "Premium", price: "€ 1.757", name: "Professional", buttons: [{ text: "Jetzt wählen", href: "#contact" }], features: ["Lifetime-Zugriff", "1:1 Coaching", "Live-Trading"] }
-            ]}
-          />
+        <div id="legal" data-section="legal">
+            <LegalSection
+                layout="page"
+                title="Datenschutzerklärung"
+                sections={[
+                    { heading: "Einleitung", content: { type: "paragraph", text: "Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Diese Datenschutzerklärung informiert Sie darüber, wie wir Daten erheben und verarbeiten." } },
+                    { heading: "Datenerhebung", content: { type: "paragraph", text: "Wir erheben personenbezogene Daten, wenn Sie mit uns in Kontakt treten oder unsere Dienstleistungen in Anspruch nehmen." } },
+                    { heading: "Ihre Rechte", content: { type: "list", items: ["Recht auf Auskunft", "Recht auf Berichtigung", "Recht auf Löschung"] } }
+                ]}
+            />
         </div>
 
         <div id="footer" data-section="footer">
