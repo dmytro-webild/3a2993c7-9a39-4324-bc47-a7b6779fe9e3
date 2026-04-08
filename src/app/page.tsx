@@ -66,7 +66,7 @@ export default function LandingPage() {
         { value: "6+", title: "Jahre Erfahrung" },
         { value: "95%", title: "Zufriedenheitsrate" },
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-professional-trader-analyzing-complex--1775633565686-a9b643c0.png?_wi=1"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/uploaded-1775636604592-mdr5yoa6.jpg"
       mediaAnimation="slide-up"
       metricsAnimation="slide-up"
     />
