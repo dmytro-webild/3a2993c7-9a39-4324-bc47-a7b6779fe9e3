@@ -71,7 +71,6 @@ export default function LandingPage() {
         {
           src: "http://img.b2bpic.net/free-photo/elderly-businessman-with-laptop_23-2148116267.jpg",          alt: "Viktor R."},
       ]}
-      avatarText="Mehr als 2.500 erfolgreiche Absolventen vertrauen uns."
       marqueeItems={[
         {
           type: "text-icon",          text: "DAX Performance",          icon: TrendingUp,
@@ -99,9 +98,7 @@ export default function LandingPage() {
       description="Unsere Trading-Akademie verbindet jahrelange Marktexpertise mit modernster Lehrmethodik. Wir fokussieren uns auf diszipliniertes Risikomanagement und datengestützte Handelsstrategien."
       metrics={[
         {
-          value: "10+",          title: "Jahre Expertise"},
-        {
-          value: "2500+",          title: "Erfolgreiche Kursteilnehmer"},
+          value: "6+",          title: "Jahre Erfahrung"},
         {
           value: "95%",          title: "Zufriedenheitsrate"},
       ]}
