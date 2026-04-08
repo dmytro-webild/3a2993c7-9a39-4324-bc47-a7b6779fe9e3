@@ -31,7 +31,7 @@ export default function LandingPage() {
       <NavbarLayoutFloatingOverlay
       navItems={[
         {
-          name: "Home",          id: "hero"},
+          name: "Start",          id: "hero"},
         {
           name: "Kurse",          id: "features"},
         {
@@ -41,7 +41,7 @@ export default function LandingPage() {
         {
           name: "Kontakt",          id: "contact"},
       ]}
-      brandName="TradeElite"
+      brandName="TradeInt"
     />
   </div>
 
@@ -49,8 +49,8 @@ export default function LandingPage() {
       <HeroSplit
       background={{
         variant: "gradient-bars"}}
-      title="Mastering the Financial Markets"
-      description="Exklusive Trading-Kurse für ambitionierte Investoren. Erhalten Sie professionelles Wissen, um an den globalen Märkten nachhaltig erfolgreich zu sein."
+      title="Die Finanzmärkte beherrschen"
+      description="Exklusive Trading-Kurse für ambitionierte Marktteilnehmer. Erhalten Sie professionelles Wissen, um an den globalen Märkten nachhaltig erfolgreich zu sein."
       buttons={[
         {
           text: "Kursübersicht",          href: "#features"},
@@ -60,16 +60,11 @@ export default function LandingPage() {
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-highly-sophisticated-professional-trad-1775633567347-92dae4ab.png?_wi=1"
       mediaAnimation="slide-up"
       avatars={[
-        {
-          src: "http://img.b2bpic.net/free-photo/economy-expert-reviewing-financial-data-kpi-dashboards_482257-127132.jpg",          alt: "Marc L."},
-        {
-          src: "http://img.b2bpic.net/free-photo/studio-portrait-blond-female-dressed-white-shirt-red-eyeglasses_613910-3571.jpg",          alt: "Sabine H."},
-        {
-          src: "http://img.b2bpic.net/free-photo/business-man-cute-brunette-man-dark-blue-suit-standing-confused_140725-161882.jpg",          alt: "Thomas B."},
-        {
-          src: "http://img.b2bpic.net/free-photo/model-man_158595-3785.jpg",          alt: "Julia M."},
-        {
-          src: "http://img.b2bpic.net/free-photo/elderly-businessman-with-laptop_23-2148116267.jpg",          alt: "Viktor R."},
+        { src: "http://img.b2bpic.net/free-photo/economy-expert-reviewing-financial-data-kpi-dashboards_482257-127132.jpg", alt: "Marc L." },
+        { src: "http://img.b2bpic.net/free-photo/studio-portrait-blond-female-dressed-white-shirt-red-eyeglasses_613910-3571.jpg", alt: "Sabine H." },
+        { src: "http://img.b2bpic.net/free-photo/business-man-cute-brunette-man-dark-blue-suit-standing-confused_140725-161882.jpg", alt: "Thomas B." },
+        { src: "http://img.b2bpic.net/free-photo/model-man_158595-3785.jpg", alt: "Julia M." },
+        { src: "http://img.b2bpic.net/free-photo/elderly-businessman-with-laptop_23-2148116267.jpg", alt: "Viktor R." },
       ]}
       marqueeItems={[
         {
@@ -97,10 +92,8 @@ export default function LandingPage() {
       title="Ihr Vorsprung am Markt"
       description="Unsere Trading-Akademie verbindet jahrelange Marktexpertise mit modernster Lehrmethodik. Wir fokussieren uns auf diszipliniertes Risikomanagement und datengestützte Handelsstrategien."
       metrics={[
-        {
-          value: "6+",          title: "Jahre Erfahrung"},
-        {
-          value: "95%",          title: "Zufriedenheitsrate"},
+        { value: "6+", title: "Jahre Erfahrung" },
+        { value: "95%", title: "Zufriedenheitsrate" },
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-professional-trader-analyzing-complex--1775633565686-a9b643c0.png?_wi=1"
       mediaAnimation="slide-up"
@@ -115,14 +108,14 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          id: "f1",          title: "Marktpsychologie",          description: "Lernen Sie, wie Emotionen Ihr Trading beeinflussen und wie Sie mentale Stärke gewinnen.",          tag: "Essentials",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-highly-sophisticated-professional-trad-1775633567347-92dae4ab.png?_wi=2"},
+          id: "f1", title: "Marktpsychologie", description: "Lernen Sie, wie Emotionen Ihr Trading beeinflussen und wie Sie mentale Stärke gewinnen.", tag: "Grundlagen", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-highly-sophisticated-professional-trad-1775633567347-92dae4ab.png?_wi=2" },
         {
-          id: "f2",          title: "Technische Analyse",          description: "Beherrschen Sie Chartmuster, Indikatoren und Preis-Action für präzise Ein- und Ausstiege.",          tag: "Advance",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-professional-trader-analyzing-complex--1775633565686-a9b643c0.png?_wi=2"},
+          id: "f2", title: "Technische Analyse", description: "Beherrschen Sie Chartmuster, Indikatoren und Preis-Action für präzise Ein- und Ausstiege.", tag: "Fortgeschrittene", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-professional-trader-analyzing-complex--1775633565686-a9b643c0.png?_wi=2" },
         {
-          id: "f3",          title: "Risikomanagement",          description: "Schützen Sie Ihr Kapital mit erprobten Strategien und disziplinierter Positionsgrößenbestimmung.",          tag: "Professional",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-minimalist-dark-themed-office-receptio-1775633566969-c31e45ac.png?_wi=1"},
+          id: "f3", title: "Risikomanagement", description: "Schützen Sie Ihr Kapital mit erprobten Strategien und disziplinierter Positionsgrößenbestimmung.", tag: "Professional", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-minimalist-dark-themed-office-receptio-1775633566969-c31e45ac.png?_wi=1" },
       ]}
-      title="Unsere Kursangebote"
-      description="Vom Anfänger zum Profi: Unsere modularen Trading-Kurse bieten alles, was Sie für eine professionelle Handelskarriere benötigen."
+      title="Unsere Kurse"
+      description="Vom Einstieg zum Profi: Unsere modularen Trading-Kurse bieten alles, was Sie für eine erfolgreiche Handelskarriere benötigen."
     />
   </div>
 
@@ -132,18 +125,14 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "1",          name: "Marc L.",          date: "12.05.2023",          title: "Full-Time Trader",          quote: "Die Ausbildung hat mein Verständnis für den Markt komplett verändert. Endlich handle ich profitabel.",          tag: "Profikurs",          avatarSrc: "http://img.b2bpic.net/free-photo/economy-expert-reviewing-financial-data-kpi-dashboards_482257-127132.jpg",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-highly-sophisticated-professional-trad-1775633567347-92dae4ab.png?_wi=3",          imageAlt: "A highly sophisticated professional trading workspace with sleek monitors, charts in gold and white "},
+          id: "1", name: "Marc L.", date: "12.05.2023", title: "Trader", quote: "Die Ausbildung hat mein Verständnis für den Markt komplett verändert. Endlich handle ich profitabel.", tag: "Profi", avatarSrc: "http://img.b2bpic.net/free-photo/economy-expert-reviewing-financial-data-kpi-dashboards_482257-127132.jpg" },
         {
-          id: "2",          name: "Sabine H.",          date: "04.08.2023",          title: "Investorin",          quote: "Strukturierte Inhalte und echte Live-Trading-Einblicke. Sehr wertvoll für meine Entwicklung.",          tag: "Basis",          avatarSrc: "http://img.b2bpic.net/free-photo/studio-portrait-blond-female-dressed-white-shirt-red-eyeglasses_613910-3571.jpg",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-professional-trader-analyzing-complex--1775633565686-a9b643c0.png?_wi=3",          imageAlt: "A professional trader analyzing complex financial data on a large touchscreen. Dark atmosphere with "},
+          id: "2", name: "Sabine H.", date: "04.08.2023", title: "Marktteilnehmerin", quote: "Strukturierte Inhalte und echte Live-Trading-Einblicke. Sehr wertvoll für meine Entwicklung.", tag: "Basis", avatarSrc: "http://img.b2bpic.net/free-photo/studio-portrait-blond-female-dressed-white-shirt-red-eyeglasses_613910-3571.jpg" },
         {
-          id: "3",          name: "Thomas B.",          date: "20.10.2023",          title: "Entrepreneur",          quote: "Hohe Qualität, absolut professionell. Der Fokus auf Risikomanagement rettet mein Konto jeden Tag.",          tag: "Masterclass",          avatarSrc: "http://img.b2bpic.net/free-photo/business-man-cute-brunette-man-dark-blue-suit-standing-confused_140725-161882.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/economy-expert-reviewing-financial-data-kpi-dashboards_482257-127132.jpg",          imageAlt: "professional portrait smiling man business suit studio"},
-        {
-          id: "4",          name: "Julia M.",          date: "15.11.2023",          title: "Trading-Enthusiastin",          quote: "Die Mentoren gehen individuell auf Fragen ein. Ein großer Mehrwert für mich.",          tag: "Profikurs",          avatarSrc: "http://img.b2bpic.net/free-photo/model-man_158595-3785.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/studio-portrait-blond-female-dressed-white-shirt-red-eyeglasses_613910-3571.jpg",          imageAlt: "confident businesswoman portrait professional dark office"},
-        {
-          id: "5",          name: "Viktor R.",          date: "05.12.2023",          title: "Daytrader",          quote: "Beste Investition meines Lebens. Danke an das gesamte TradeElite-Team!",          tag: "Masterclass",          avatarSrc: "http://img.b2bpic.net/free-photo/elderly-businessman-with-laptop_23-2148116267.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/business-man-cute-brunette-man-dark-blue-suit-standing-confused_140725-161882.jpg",          imageAlt: "professional man portrait confident serious"},
+          id: "3", name: "Thomas B.", date: "20.10.2023", title: "Unternehmer", quote: "Hohe Qualität, absolut professionell. Der Fokus auf Risikomanagement rettet mein Konto jeden Tag.", tag: "Masterclass", avatarSrc: "http://img.b2bpic.net/free-photo/business-man-cute-brunette-man-dark-blue-suit-standing-confused_140725-161882.jpg" },
       ]}
-      title="See How Our Graduates Mastered the Markets"
-      description="Was unsere Absolventen über ihre Reise zum professionellen Trader sagen."
+      title="Was unsere Teilnehmer sagen"
+      description="Erfahrungsberichte unserer Kursteilnehmer auf dem Weg zum profitablen Handeln."
     />
   </div>
 
@@ -154,24 +143,14 @@ export default function LandingPage() {
       useInvertedBackground={false}
       plans={[
         {
-          id: "basis",          badge: "Essential",          price: "€ 999",          subtitle: "Der ideale Einstieg",          buttons: [
-            {
-              text: "Anmelden",              href: "#contact"},
-          ],
-          features: [
-            "12 Monate Zugriff",            "Video-Bibliothek",            "Basis-Strategien"],
+          id: "basis", badge: "Essential", price: "€ 999", subtitle: "Der ideale Einstieg", buttons: [{ text: "Anmelden", href: "#contact" }], features: ["12 Monate Zugriff", "Video-Bibliothek", "Basis-Strategien"]
         },
         {
-          id: "pro",          badge: "Bestseller",          price: "€ 2.499",          subtitle: "Für ernsthafte Trader",          buttons: [
-            {
-              text: "Anmelden",              href: "#contact"},
-          ],
-          features: [
-            "Lifetime-Zugriff",            "Wöchentliches Live-Trading",            "**1:1 Coaching-Call**",            "Exklusive Community"],
+          id: "pro", badge: "Bestseller", price: "€ 2.499", subtitle: "Für ernsthafte Trader", buttons: [{ text: "Anmelden", href: "#contact" }], features: ["Lifetime-Zugriff", "Wöchentliches Live-Trading", "1:1 Coaching", "Exklusive Community"]
         },
       ]}
       title="Investieren Sie in Ihre Zukunft"
-      description="Wählen Sie das Paket, das Ihren aktuellen Zielen entspricht."
+      description="Wählen Sie das Paket, das Ihren Zielen entspricht."
     />
   </div>
 
@@ -181,43 +160,32 @@ export default function LandingPage() {
       title="Bereit für den nächsten Schritt?"
       description="Kontaktieren Sie uns für ein unverbindliches Erstgespräch oder um mehr über unsere Kurse zu erfahren."
       inputs={[
-        {
-          name: "name",          type: "text",          placeholder: "Ihr Name",          required: true,
-        },
-        {
-          name: "email",          type: "email",          placeholder: "Ihre E-Mail",          required: true,
-        },
+        { name: "name", type: "text", placeholder: "Ihr Name", required: true },
+        { name: "email", type: "email", placeholder: "Ihre E-Mail", required: true },
       ]}
-      textarea={{
-        name: "message",        placeholder: "Wie können wir Ihnen helfen?",        rows: 4,
-        required: true,
-      }}
+      textarea={{ name: "message", placeholder: "Wie können wir Ihnen helfen?", rows: 4, required: true }}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-minimalist-dark-themed-office-receptio-1775633566969-c31e45ac.png?_wi=2"
     />
   </div>
 
   <div id="footer" data-section="footer">
       <FooterBaseReveal
-      logoText="TradeElite"
+      logoText="TradeInt"
       columns={[
         {
-          title: "Akademie",          items: [
-            {
-              label: "Kurse",              href: "#features"},
-            {
-              label: "Testimonials",              href: "#testimonials"},
+          title: "Akademie", items: [
+            { label: "Kurse", href: "#features" },
+            { label: "Erfolge", href: "#testimonials" },
           ],
         },
         {
-          title: "Rechtliches",          items: [
-            {
-              label: "Datenschutz",              href: "#"},
-            {
-              label: "Impressum",              href: "#"},
+          title: "Rechtliches", items: [
+            { label: "Datenschutz", href: "#" },
+            { label: "Impressum", href: "#" },
           ],
         },
       ]}
-      copyrightText="© 2024 TradeElite. Alle Rechte vorbehalten."
+      copyrightText="© 2024 TradeInt. Alle Rechte vorbehalten."
     />
   </div>
       </ReactLenis>
