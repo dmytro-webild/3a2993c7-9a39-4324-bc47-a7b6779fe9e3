@@ -84,7 +84,7 @@ export default function LandingPage() {
       description="Lernen Sie von erfahrenen Tradern, die ihre Leidenschaft zum Beruf gemacht haben."
       team={[
         {
-          id: "t1",          name: "Mark",          role: "Trading für 6 Jahre, 24 Jahre alt, hat das Hobby zum Beruf gemacht",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/uploaded-1775635278994-y2c6y2gw.jpg"
+          id: "t1",          name: "Mark",          role: "Trading für 6 Jahre, 24 Jahre alt, hat das Hobby zum Beruf gemacht",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/uploaded-1775635413519-j2stas5l.jpg"
         }
       ]}
     />
