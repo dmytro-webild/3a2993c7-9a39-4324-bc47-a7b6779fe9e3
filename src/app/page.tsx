@@ -31,7 +31,7 @@ export default function LandingPage() {
       navItems={[
         { name: "Start", id: "hero" },
         { name: "Preise", id: "/pricing" },
-        { name: "Kontakt", id: "contact" },
+        { name: "Kontakt", id: "/contact" },
         { name: "Datenschutz", id: "/privacy-policy" },
       ]}
       brandName="TradeInt"
@@ -44,7 +44,7 @@ export default function LandingPage() {
       title="Die Finanzmärkte beherrschen"
       description="Exklusive Trading-Kurse für ambitionierte Marktteilnehmer. Erhalten Sie professionelles Wissen, um an den globalen Märkten nachhaltig erfolgreich zu sein."
       buttons={[
-        { text: "Jetzt beraten lassen", href: "#contact" },
+        { text: "Jetzt beraten lassen", href: "/contact" },
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/uploaded-1775636193653-s38aq5cu.jpg"
       mediaAnimation="slide-up"
@@ -94,8 +94,8 @@ export default function LandingPage() {
       textboxLayout="split-actions"
       useInvertedBackground={false}
       plans={[
-        { id: "basis", badge: "Essential", price: "€ 421", subtitle: "Der ideale Einstieg", buttons: [{ text: "Anmelden", href: "#contact" }], features: ["6 Monate Zugriff", "Video-Bibliothek", "Basis-Strategien"] },
-        { id: "pro", badge: "Bestseller", price: "€ 1.757", subtitle: "Für ernsthafte Trader", buttons: [{ text: "Anmelden", href: "#contact" }], features: ["Lifetime-Zugriff", "Tägliches Live-Trading", "1:1 Coaching", "Exklusive Community"] },
+        { id: "basis", badge: "Essential", price: "€ 421", subtitle: "Der ideale Einstieg", buttons: [{ text: "Anmelden", href: "/contact" }], features: ["6 Monate Zugriff", "Video-Bibliothek", "Basis-Strategien"] },
+        { id: "pro", badge: "Bestseller", price: "€ 1.757", subtitle: "Für ernsthafte Trader", buttons: [{ text: "Anmelden", href: "/contact" }], features: ["Lifetime-Zugriff", "Tägliches Live-Trading", "1:1 Coaching", "Exklusive Community"] },
       ]}
       title="Investieren Sie in Ihre Zukunft"
       description="Wählen Sie den passenden Plan für Ihren Erfolg."
