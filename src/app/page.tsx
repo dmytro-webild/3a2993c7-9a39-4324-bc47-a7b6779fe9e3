@@ -45,7 +45,7 @@ export default function LandingPage() {
       buttons={[
         { text: "Jetzt beraten lassen", href: "#contact" },
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-highly-sophisticated-professional-trad-1775633567347-92dae4ab.png?_wi=1"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/uploaded-1775636113140-vuqgr8go.jpg"
       mediaAnimation="slide-up"
       marqueeItems={[
         { type: "text-icon", text: "DAX Performance", icon: TrendingUp },
