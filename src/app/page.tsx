@@ -99,7 +99,7 @@ export default function LandingPage() {
         { id: "pro", badge: "Bestseller", price: "<span style='text-decoration: line-through; font-size: 0.8em; opacity: 0.6;'>€ 1.624</span> € 1.055", subtitle: "Für ernsthafte Trader (-35% Rabatt)", buttons: [{ text: "Anmelden", href: "#contact" }], features: ["Lifetime-Zugriff", "Wöchentliches Live-Trading", "1:1 Coaching", "Exklusive Community"] },
       ]}
       title="Investieren Sie in Ihre Zukunft"
-      description="Limitierte Rabattaktion: Sichern Sie sich jetzt 35% Rabatt auf unsere Kurspakete."
+      description="Limitierte Rabattaktion endet bald – Sichern Sie sich jetzt 35% Rabatt."
     />
   </div>
 
