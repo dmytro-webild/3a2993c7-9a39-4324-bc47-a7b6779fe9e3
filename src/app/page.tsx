@@ -31,7 +31,7 @@ export default function LandingPage() {
       navItems={[
         { name: "Start", id: "hero" },
         { name: "Preise", id: "/pricing" },
-        { name: "Kontakt", id: "/contact" },
+        { name: "Kontakt", id: "contact" },
         { name: "Datenschutz", id: "/privacy-policy" },
       ]}
       brandName="TradeInt"
