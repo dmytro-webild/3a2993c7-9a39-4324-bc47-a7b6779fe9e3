@@ -9,6 +9,7 @@ import HeroSplit from '@/components/sections/hero/HeroSplit';
 import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaAbout';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import PricingCardTwo from '@/components/sections/pricing/PricingCardTwo';
+import TeamCardFive from '@/components/sections/team/TeamCardFive';
 import { DollarSign, Globe, LineChart, ShieldCheck, TrendingUp } from "lucide-react";
 
 export default function LandingPage() {
@@ -71,6 +72,21 @@ export default function LandingPage() {
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-professional-trader-analyzing-complex--1775633565686-a9b643c0.png?_wi=1"
       mediaAnimation="slide-up"
       metricsAnimation="slide-up"
+    />
+  </div>
+
+  <div id="team" data-section="team">
+    <TeamCardFive
+      animationType="slide-up"
+      textboxLayout="default"
+      useInvertedBackground={false}
+      title="Unsere Expertise"
+      description="Lernen Sie von erfahrenen Tradern, die ihre Leidenschaft zum Beruf gemacht haben."
+      team={[
+        {
+          id: "t1",          name: "Mark",          role: "Trading für 6 Jahre, 24 Jahre alt, hat das Hobby zum Beruf gemacht",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/uploaded-1775635278994-y2c6y2gw.jpg"
+        }
+      ]}
     />
   </div>
 
