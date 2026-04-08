@@ -98,7 +98,6 @@ export default function LandingPage() {
       ]}
       title="Investieren Sie in Ihre Zukunft"
       description="Wählen Sie den passenden Plan für Ihren Erfolg."
-      className="bg-[url('https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/uploaded-1775635670037-goy5ev6n.jpg')] bg-cover bg-center"
     />
   </div>
 
