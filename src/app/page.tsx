@@ -72,7 +72,7 @@ export default function LandingPage() {
           href: "#contact",
         },
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-highly-sophisticated-professional-trad-1775633567347-92dae4ab.png"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-highly-sophisticated-professional-trad-1775633567347-92dae4ab.png?_wi=1"
       mediaAnimation="slide-up"
       avatars={[
         {
@@ -146,7 +146,7 @@ export default function LandingPage() {
           title: "Zufriedenheitsrate",
         },
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-professional-trader-analyzing-complex--1775633565686-a9b643c0.png"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-professional-trader-analyzing-complex--1775633565686-a9b643c0.png?_wi=1"
       mediaAnimation="slide-up"
       metricsAnimation="slide-up"
     />
@@ -163,21 +163,21 @@ export default function LandingPage() {
           title: "Marktpsychologie",
           description: "Lernen Sie, wie Emotionen Ihr Trading beeinflussen und wie Sie mentale Stärke gewinnen.",
           tag: "Essentials",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-highly-sophisticated-professional-trad-1775633567347-92dae4ab.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-highly-sophisticated-professional-trad-1775633567347-92dae4ab.png?_wi=2",
         },
         {
           id: "f2",
           title: "Technische Analyse",
           description: "Beherrschen Sie Chartmuster, Indikatoren und Preis-Action für präzise Ein- und Ausstiege.",
           tag: "Advance",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-professional-trader-analyzing-complex--1775633565686-a9b643c0.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-professional-trader-analyzing-complex--1775633565686-a9b643c0.png?_wi=2",
         },
         {
           id: "f3",
           title: "Risikomanagement",
           description: "Schützen Sie Ihr Kapital mit erprobten Strategien und disziplinierter Positionsgrößenbestimmung.",
           tag: "Professional",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-minimalist-dark-themed-office-receptio-1775633566969-c31e45ac.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-minimalist-dark-themed-office-receptio-1775633566969-c31e45ac.png?_wi=1",
         },
       ]}
       title="Unsere Kursangebote"
@@ -198,7 +198,7 @@ export default function LandingPage() {
           quote: "Die Ausbildung hat mein Verständnis für den Markt komplett verändert. Endlich handle ich profitabel.",
           tag: "Profikurs",
           avatarSrc: "http://img.b2bpic.net/free-photo/economy-expert-reviewing-financial-data-kpi-dashboards_482257-127132.jpg",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-highly-sophisticated-professional-trad-1775633567347-92dae4ab.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-highly-sophisticated-professional-trad-1775633567347-92dae4ab.png?_wi=3",
           imageAlt: "A highly sophisticated professional trading workspace with sleek monitors, charts in gold and white ",
         },
         {
@@ -209,7 +209,7 @@ export default function LandingPage() {
           quote: "Strukturierte Inhalte und echte Live-Trading-Einblicke. Sehr wertvoll für meine Entwicklung.",
           tag: "Basis",
           avatarSrc: "http://img.b2bpic.net/free-photo/studio-portrait-blond-female-dressed-white-shirt-red-eyeglasses_613910-3571.jpg",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-professional-trader-analyzing-complex--1775633565686-a9b643c0.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-professional-trader-analyzing-complex--1775633565686-a9b643c0.png?_wi=3",
           imageAlt: "A professional trader analyzing complex financial data on a large touchscreen. Dark atmosphere with ",
         },
         {
@@ -323,7 +323,7 @@ export default function LandingPage() {
         rows: 4,
         required: true,
       }}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-minimalist-dark-themed-office-receptio-1775633566969-c31e45ac.png"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-minimalist-dark-themed-office-receptio-1775633566969-c31e45ac.png?_wi=2"
     />
   </div>
 
