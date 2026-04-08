@@ -165,12 +165,12 @@ export default function LandingPage() {
             "12 Monate Zugriff",            "Video-Bibliothek",            "Basis-Strategien"],
         },
         {
-          id: "pro",          badge: "Premium",          price: "€ 2.499",          subtitle: "Für ernsthafte Trader",          buttons: [
+          id: "pro",          badge: "Bestseller",          price: "€ 2.499",          subtitle: "Für ernsthafte Trader",          buttons: [
             {
               text: "Anmelden",              href: "#contact"},
           ],
           features: [
-            "Lifetime-Zugriff",            "Wöchentliches Live-Trading",            "1:1 Coaching-Call",            "Exklusive Community"],
+            "Lifetime-Zugriff",            "Wöchentliches Live-Trading",            "**1:1 Coaching-Call**",            "Exklusive Community"],
         },
       ]}
       title="Investieren Sie in Ihre Zukunft"
