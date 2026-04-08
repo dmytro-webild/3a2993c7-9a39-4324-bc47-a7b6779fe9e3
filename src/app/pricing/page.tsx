@@ -41,8 +41,8 @@ export default function PricingPage() {
             title="Unsere Preispläne"
             description="Wählen Sie den Plan, der am besten zu Ihren Trading-Zielen passt."
             plans={[
-              { id: "basis", badge: "Essential", price: "€ 421", name: "Basis", buttons: [{ text: "Jetzt wählen", href: "#contact" }], features: ["6 Monate Zugriff", "Basis-Strategien"] },
-              { id: "pro", badge: "Premium", price: "€ 1.757", name: "Professional", buttons: [{ text: "Jetzt wählen", href: "#contact" }], features: ["Lifetime-Zugriff", "1:1 Coaching", "Live-Trading"] }
+              { id: "basis", badge: "Essential", price: "€ 421", name: "Basis", buttons: [{ text: "Jetzt wählen", href: "/contact" }], features: ["6 Monate Zugriff", "Basis-Strategien"] },
+              { id: "pro", badge: "Premium", price: "€ 1.757", name: "Professional", buttons: [{ text: "Jetzt wählen", href: "/contact" }], features: ["Lifetime-Zugriff", "1:1 Coaching", "Live-Trading"] }
             ]}
           />
         </div>
