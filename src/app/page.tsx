@@ -95,11 +95,11 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       plans={[
-        { id: "basis", badge: "Essential", price: "<span style='text-decoration: line-through; font-size: 0.8em; opacity: 0.6;'>€ 649</span> € 421", subtitle: "Der ideale Einstieg (-35% Rabatt)", buttons: [{ text: "Anmelden", href: "#contact" }], features: ["12 Monate Zugriff", "Video-Bibliothek", "Basis-Strategien"] },
-        { id: "pro", badge: "Bestseller", price: "<span style='text-decoration: line-through; font-size: 0.8em; opacity: 0.6;'>€ 1.624</span> € 1.055", subtitle: "Für ernsthafte Trader (-35% Rabatt)", buttons: [{ text: "Anmelden", href: "#contact" }], features: ["Lifetime-Zugriff", "Wöchentliches Live-Trading", "1:1 Coaching", "Exklusive Community"] },
+        { id: "basis", badge: "Essential", price: "€ 421", subtitle: "Der ideale Einstieg", buttons: [{ text: "Anmelden", href: "#contact" }], features: ["12 Monate Zugriff", "Video-Bibliothek", "Basis-Strategien"] },
+        { id: "pro", badge: "Bestseller", price: "€ 1.055", subtitle: "Für ernsthafte Trader", buttons: [{ text: "Anmelden", href: "#contact" }], features: ["Lifetime-Zugriff", "Wöchentliches Live-Trading", "1:1 Coaching", "Exklusive Community"] },
       ]}
       title="Investieren Sie in Ihre Zukunft"
-      description="Limitierte Rabattaktion endet bald – Sichern Sie sich jetzt 35% Rabatt."
+      description="Wählen Sie den passenden Plan für Ihren Erfolg."
     />
   </div>
 
