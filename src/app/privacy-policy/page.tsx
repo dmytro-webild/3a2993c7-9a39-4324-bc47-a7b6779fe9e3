@@ -41,15 +41,15 @@ export default function PrivacyPolicyPage() {
             sections={[
                 { 
                   heading: "1. Einleitung", 
-                  content: { type: "paragraph", text: "Der Schutz Ihrer persönlichen Daten ist uns ein wichtiges Anliegen. Wir verarbeiten Ihre Daten ausschließlich auf Grundlage der gesetzlichen Bestimmungen (DSGVO, TKG). In dieser Datenschutzerklärung informieren wir Sie über die wichtigsten Aspekte der Datenverarbeitung im Rahmen unserer Website." } 
+                  content: { text: "Der Schutz Ihrer persönlichen Daten ist uns ein wichtiges Anliegen. Wir verarbeiten Ihre Daten ausschließlich auf Grundlage der gesetzlichen Bestimmungen (DSGVO, TKG). In dieser Datenschutzerklärung informieren wir Sie über die wichtigsten Aspekte der Datenverarbeitung im Rahmen unserer Website." } 
                 },
                 { 
                   heading: "2. Datenerfassung", 
-                  content: { type: "paragraph", text: "Beim Besuch unserer Website werden verschiedene Daten erhoben, darunter technische Daten wie IP-Adresse, Browsertyp und Informationen zur Nutzung der Website, die zur Bereitstellung unserer Dienste erforderlich sind." } 
+                  content: { text: "Beim Besuch unserer Website werden verschiedene Daten erhoben, darunter technische Daten wie IP-Adresse, Browsertyp und Informationen zur Nutzung der Website, die zur Bereitstellung unserer Dienste erforderlich sind." } 
                 },
                 { 
                   heading: "3. Ihre Rechte", 
-                  content: { type: "list", items: ["Recht auf Auskunft", "Recht auf Berichtigung", "Recht auf Löschung", "Recht auf Einschränkung der Verarbeitung", "Recht auf Datenübertragbarkeit"] } 
+                  content: { items: ["Recht auf Auskunft", "Recht auf Berichtigung", "Recht auf Löschung", "Recht auf Einschränkung der Verarbeitung", "Recht auf Datenübertragbarkeit"] } 
                 }
             ]}
           />
