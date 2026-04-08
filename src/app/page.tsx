@@ -31,7 +31,8 @@ export default function LandingPage() {
       navItems={[
         { name: "Start", id: "hero" },
         { name: "Preise", id: "/pricing" },
-        { name: "Kontakt", id: "contact" },
+        { name: "Kontakt", id: "/contact" },
+        { name: "Datenschutz", id: "/privacy-policy" },
       ]}
       brandName="TradeInt"
     />
@@ -119,7 +120,7 @@ export default function LandingPage() {
       <FooterBaseReveal
       logoText="TradeInt"
       columns={[
-        { title: "Rechtliches", items: [{ label: "Datenschutz", href: "#" }, { label: "Impressum", href: "#" }] },
+        { title: "Rechtliches", items: [{ label: "Datenschutz", href: "/privacy-policy" }, { label: "Impressum", href: "#" }] },
       ]}
       copyrightText="© 2024 TradeInt. Alle Rechte vorbehalten."
     />
