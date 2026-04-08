@@ -27,6 +27,7 @@ export default function PricingPage() {
               { name: "Start", id: "/" },
               { name: "Preise", id: "/pricing" },
               { name: "Kontakt", id: "/contact" },
+              { name: "Datenschutz", id: "/privacy-policy" },
             ]}
             brandName="TradeInt"
           />
@@ -50,7 +51,7 @@ export default function PricingPage() {
           <FooterBaseReveal
             logoText="TradeInt"
             columns={[
-              { title: "Rechtliches", items: [{ label: "Datenschutz", href: "#" }, { label: "Impressum", href: "#" }] },
+              { title: "Rechtliches", items: [{ label: "Datenschutz", href: "/privacy-policy" }, { label: "Impressum", href: "#" }] },
             ]}
             copyrightText="© 2024 TradeInt. Alle Rechte vorbehalten."
           />
