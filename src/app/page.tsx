@@ -66,7 +66,7 @@ export default function LandingPage() {
         { value: "6+", title: "Jahre Erfahrung" },
         { value: "95%", title: "Zufriedenheitsrate" },
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/uploaded-1775636349442-9ogd4xth.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C1g1g41A9mvtTwTAGz3WKojkuv/a-professional-trader-analyzing-complex--1775633565686-a9b643c0.png?_wi=1"
       mediaAnimation="slide-up"
       metricsAnimation="slide-up"
     />
@@ -90,7 +90,7 @@ export default function LandingPage() {
   <div id="pricing" data-section="pricing">
       <PricingCardTwo
       animationType="slide-up"
-      textboxLayout="split"
+      textboxLayout="split-actions"
       useInvertedBackground={false}
       plans={[
         { id: "basis", badge: "Essential", price: "€ 421", subtitle: "Der ideale Einstieg", buttons: [{ text: "Anmelden", href: "#contact" }], features: ["12 Monate Zugriff", "Video-Bibliothek", "Basis-Strategien"] },
