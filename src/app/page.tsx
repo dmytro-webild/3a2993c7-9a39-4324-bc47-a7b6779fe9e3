@@ -93,8 +93,8 @@ export default function LandingPage() {
       textboxLayout="split-actions"
       useInvertedBackground={false}
       plans={[
-        { id: "basis", badge: "Essential", price: "€ 421", subtitle: "Der ideale Einstieg", buttons: [{ text: "Anmelden", href: "#contact" }], features: ["12 Monate Zugriff", "Video-Bibliothek", "Basis-Strategien"] },
-        { id: "pro", badge: "Bestseller", price: "€ 1.055", subtitle: "Für ernsthafte Trader", buttons: [{ text: "Anmelden", href: "#contact" }], features: ["Lifetime-Zugriff", "Wöchentliches Live-Trading", "1:1 Coaching", "Exklusive Community"] },
+        { id: "basis", badge: "Essential", price: "€ 421", subtitle: "Der ideale Einstieg", buttons: [{ text: "Anmelden", href: "#contact" }], features: ["6 Monate Zugriff", "Video-Bibliothek", "Basis-Strategien"] },
+        { id: "pro", badge: "Bestseller", price: "€ 1.757", subtitle: "Für ernsthafte Trader", buttons: [{ text: "Anmelden", href: "#contact" }], features: ["Lifetime-Zugriff", "Tägliches Live-Trading", "1:1 Coaching", "Exklusive Community"] },
       ]}
       title="Investieren Sie in Ihre Zukunft"
       description="Wählen Sie den passenden Plan für Ihren Erfolg."
