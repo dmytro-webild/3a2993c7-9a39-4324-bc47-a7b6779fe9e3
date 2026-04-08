@@ -30,7 +30,7 @@ export default function LandingPage() {
       <NavbarLayoutFloatingOverlay
       navItems={[
         { name: "Start", id: "hero" },
-        { name: "Preise", id: "pricing" },
+        { name: "Preise", id: "/pricing" },
         { name: "Kontakt", id: "contact" },
       ]}
       brandName="TradeInt"
