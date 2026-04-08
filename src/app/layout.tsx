@@ -10,8 +10,8 @@ import { Lato } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: 'TradeElite | Premium Trading-Akademie',
-  description: 'Exklusive Trading-Kurse von Experten. Lernen Sie professionelles Handeln mit nachhaltigen Strategien.',
+  title: 'TradeInt',
+  description: 'Ihr Partner portfolio',
   openGraph: {
     "title": "TradeElite | Premium Trading-Akademie",
     "description": "Exklusive Trading-Kurse von Experten.",
